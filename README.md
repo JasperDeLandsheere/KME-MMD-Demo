@@ -4,7 +4,9 @@ This is a short excerpt of my Master's thesis: data-driven prediction of pharmac
 
 ### The toy problem
 Consider the following toy problem, illustrated in Figure 3.9. Given noisy data points that lay in a circular shape, is it possible to find a model fit of 100 equally spaced points that lay on a circle with a radius that represents the input data?
+
 ![Input data](figures/Input_Data.png)
+
 ### The MMD
 This problem can be solved using kernel mean embedding, particularly us- ing the maximum mean discrepancy. The MMD corresponds to the RKHS distance between mean embeddings (Gretton et al., 2012; Borgwardt et al., 2006):
 ![MMD](figures/MMD.png)
